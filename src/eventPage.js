@@ -9,7 +9,7 @@ chrome.contextMenus.create(menuItem);
 function encodeURI (str) {
 	var replaced = str.toLowerCase().replace(/ /g, '-');
     return replaced;
-}
+};
 
 chrome.contextMenus.onClicked.addListener(function(clickData) {
 	if (clickData.menuItemId == "cambridge_dict" && clickData.selectionText) {
