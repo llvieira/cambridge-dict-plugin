@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "CambridgeDict",
+	"version": "1.0.0",
+	"description": "Search a word or a sentence on Cambridge Dictionary.",
+
+	"icons": {
+		"128": "icons/icon128.png",
+		"48": "icons/icon48.png",
+		"16": "icons/icon16.png"
+	},
+
+	"background": {
+		"scripts": ["src/eventPage.js"],
+		"persistent": false
+	},
+
+	"permissions": [
+		"tabs",
+		"contextMenus"
+	]
+}
